@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conqueror PCs - Build Your Rig</title>
+  <link rel="stylesheet" href="Main.css" />
+  <script src="./Main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">LOGO</div>
+    <h1>Conqueror PCs</h1>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>Configure Your PC</h2>
+      <button onclick="OrderPc()">TEST BUTTON</button>
+      <select id="CPU"><option disabled selected hidden >Choose CPU</option></select>
+
+      <select id="Motherboard"><option disabled selected hidden>Choose Motherboard</option></select>
+
+      <select id="GPU"><option disabled selected hidden>Choose GPU</option></select>
+
+      <select id="RAM" ><option disabled selected hidden>Choose RAM</option></select>
+
+      <select id="Storage"><option disabled selected hidden>Choose Storage</option></select>
+
+      <select id="PSU"><option disabled selected hidden>Choose PSU</option></select>
+
+      <select id="Case"><option disabled selected hidden>Choose Case</option></select>
+      
+      <select id="Cooling"><option disabled selected hidden>Choose Cooling</option></select>
+    </div>
+
+    <div class="section">
+      <h2>Price & Summary</h2>
+      <p>Subtotal (Pre-VAT): £<span id="preVat">0.00</span></p>
+      <p>Tax: £<span id="vat">0.00</span></p>
+      <p><strong>Grand Total: £<span id="total">0.00</span></strong></p>
+    </div>
+
+    <div class="section" style="grid-column: span 2;">
+  <h2>Finalize Your Build</h2>
+  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 300px;">
+      <h3 style="color: #00ffff;">Enter Customer Info</h3>
+      <label for="custName">Name</label>
+      <input type="text" id="custName" required style="width: 100%; margin-bottom: 10px;" />
+
+      <label for="custEmail">Email</label>
+      <input type="email" id="custEmail" required style="width: 100%; margin-bottom: 10px;" />
+
+      <label for="custPhone">Phone</label>
+      <input type="tel" id="custPhone" required style="width: 100%; margin-bottom: 10px;" />
+
+      <label for="custAddress">Shipping Address</label>
+      <textarea id="custAddress" rows="3" required style="width: 100%; margin-bottom: 10px;"></textarea>
+    </div>
+    <div style="flex: 1; min-width: 300px; text-align: center;">
+      <button onclick="OrderPc()">Submit Order</button>
+      <div id="orderConfirmation" style="display: none; margin-top: 20px;">
+        <h3 style="color: #00ffff;">✅ Order Placed Successfully!</h3>
+        <p style="font-size: 18px; color: white;">
+          Your Order Number is: <span id="orderNumberDisplay" style="font-weight: bold;"></span>
+        </p>
+        <img src="./package-delivered-3d-illustration-png.png" alt="Box Image"
+             style="width: 50%; max-width: 200px; margin-top: 10px;" />
+      </div>
+    </div>
+
+  </div>
+</div>
+  </div>
+</body>
+</html>

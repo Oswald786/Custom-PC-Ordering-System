@@ -1,0 +1,50 @@
+01,AMD Ryzen 9 7950X,CPU,640
+02,Intel Core i9-13900K,CPU,620
+03,AMD Ryzen 7 7800X3D,CPU,490
+04,Intel Core i7-13700K,CPU,440
+05,AMD Ryzen 5 7600X,CPU,320
+06,Intel Core i5-13600K,CPU,300
+07,NVIDIA RTX 4090,GPU,2000
+08,AMD Radeon RX 7900 XTX,GPU,1000
+09,NVIDIA RTX 4080 Super,GPU,1300
+10,AMD Radeon RX 7800 XT,GPU,550
+11,NVIDIA RTX 4070 Ti Super,GPU,850
+12,Intel Arc A770,GPU,340
+13,Samsung 990 Pro 2TB NVMe,Storage,240
+14,WD Black SN850X 1TB NVMe,Storage,130
+15,Seagate Barracuda 4TB HDD,Storage,90
+16,Crucial MX500 1TB SATA SSD,Storage,85
+17,Sabrent Rocket 4 Plus 2TB,Storage,220
+18,Toshiba X300 6TB HDD,Storage,150
+19,Corsair Vengeance 32GB DDR5,RAM,160
+20,G.Skill Trident Z5 32GB DDR5,RAM,190
+21,Kingston Fury Beast 16GB DDR4,RAM,80
+22,Corsair Dominator Platinum 64GB DDR5,RAM,300
+23,TeamGroup T-Force Delta RGB 32GB DDR4,RAM,120
+24,Crucial Ballistix 16GB DDR4,RAM,75
+25,ASUS ROG Crosshair X670E Hero,Motherboard,570
+26,MSI MEG Z790 ACE,Motherboard,500
+27,Gigabyte B650 AORUS Elite AX,Motherboard,240
+28,ASRock B550M Steel Legend,Motherboard,160
+29,MSI MPG Z790 Carbon WiFi,Motherboard,350
+30,ASUS Prime Z690-P,Motherboard,200
+31,Corsair RM850x 850W,PSU,130
+32,EVGA SuperNOVA 1000W,PSU,160
+33,Seasonic Focus GX-750,PSU,120
+34,Thermaltake Toughpower GF3 850W,PSU,140
+35,Cooler Master MWE Gold 750W,PSU,110
+36,Be Quiet! Straight Power 11 850W,PSU,135
+37,Lian Li PC-O11 Dynamic,Case,140
+38,NZXT H510 Elite,Case,130
+39,Fractal Design Meshify C,Case,110
+40,Cooler Master MasterBox TD500,Case,100
+41,Corsair iCUE 5000X RGB,Case,180
+42,Phanteks Eclipse G360A,Case,90
+43,NZXT Kraken Z73 AIO,Cooling,250
+44,Noctua NH-D15,Cooling,100
+45,Corsair H150i Elite LCD,Cooling,230
+46,Arctic Liquid Freezer II 280,Cooling,120
+47,DeepCool AK620,Cooling,75
+48,be quiet! Pure Rock 2,Cooling,50
+49,Thermaltake TOUGHLIQUID 360 ARGB,Cooling,150
+50,Cooler Master Hyper 212 Black Edition,Cooling,40
