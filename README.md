@@ -15,18 +15,6 @@ A solo-developed Java backend system for configuring and ordering custom-built P
 - 🧪 Unit-tested order validation and error handling
 - 🔄 Designed for future integration with Oracle DB and Docker
 
----
-
-## 📁 Project Structure
-com.v1/
-├── Model/ # All domain models (e.g. Receipt, Customer, PC Build)
-├── Services/ # Core logic (Billing, Config, Order Processing)
-├── resources/
-│ ├── MockComponentList.txt # Fake data store for available PC parts
-│ └── ConfirmedOrders/ # Persisted order files
-├── Test/ # JUnit tests for each model/service
----
-
 ## ⚙️ Technologies Used
 
 - Java 17+
